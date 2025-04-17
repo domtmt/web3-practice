@@ -1,0 +1,12 @@
+/* 주석입니다 */
+p {
+  color: blue;
+  border: 2px solid red;
+  background: yellow;
+}
+#my-paragraph {
+  font-size: 20px;
+}
+.my-class {
+  font-weight: bold;
+}

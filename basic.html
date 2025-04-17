@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <title> HTML 실습</title>
+</head>
+
+<body>
+    <div class="page-container">
+        <!-- 헤더 영역 -->
+        <header>
+            <h1>웹 개발 기초 학습</h1>
+            <p>HTML의 <span style="color: blue;">구조적 태그 </span>를 배워봅시다</p>
+
+            <!-- 네비게이션 영역 -->
+            <nav>
+                <ul>
+                    <li><a href="#section1"> 소개</a></li>
+                    <li><a href="#section2"> HTML 태그 </a>
+                    <li><a href="#section3"> 참고 자료 </a>
+                    <li><a href="#contact"> 연락처 </a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- 메인 콘텐츠 영역 -->
+        <!-- ... -->
+        <!-- 푸터 영역 -->
+        <footer id="contact">
+            <h2>연락처</h2>
+            <p> 이메일:<span class="email"> example@example.com </span></p>
+            <!-- 구독 섹션 -->
+            <div class="subscribe">
+                <h3>뉴스레터 구독 </h3>
+                <form>
+                    <input type="email" placeholder="이메일 주소를 입력하세요" required />
+                    <button type="submit">구독하기 </button>
+                </form>
+                <p> 최신 웹 개발 소식을 받아보세요! </p>
+            </div>
+        </footer>
+    </div>
+</body>
+<!-- 메인 콘텐츠 영역 -->
+<main>
+    <!-- 첫 번째 섹션 -->
+    <section id="section1">
+        <h2> 웹 개발 소개 </h2>
+        <p> 웹 개발은 HTML, CSS, JavaScript를 사용하여 웹사이트를 구축하는 과정입니다. </p>
+        <div class="info-box"> 웹 개발자는 <span style="font-weight: bold;"> 사용자 경험(UX)</span> 을 고려해 웹사이트를 만듭니다. </div>
+    </section>
+    <!-- 두 번째 섹션 -->
+    <section id="section2">
+        <h2>HTML 태그 학습</h2>
+        <!-- 첫 번째 아티클 -->
+        <article>
+            <h3> 구조적 태그의 중요성 </h3>
+            <p> 구조적 태그를 사용하면 웹 페이지의 의미와 구조가 명확해집니다. </p>
+            <p> 이는 검색 엔진 최적화(SEO)와 접근성 향상에 도움이 됩니다.</p>
+            <footer>
+                <p> 작성일: 2025년 5월 1일 </p>
+            </footer>
+        </article>
+        <!-- 두 번째 아티클 -->
+        <article>
+            <h3> 시맨틱 태그 예시 </h3>
+            <ul>
+                <li> <code> &lt; header  &gt;</code>- 페이지나 섹션의 헤더 부분 </li>
+                <li><code> &lt; nav &gt; </code> - 내비게이션 링크 모음 </li>
+                <li><code> &lt; main &gt;  </code> - 문서의 주요 콘텐츠</li>
+                <li><code>  &lt; section &gt; </code> - 문서의 독립적인 섹션 </li>
+                <li> <code> &lt; article  &gt;  </code> - 독립적인 콘텐츠 블록 </li>
+                <li> <code> &lt; footer &gt;  </code> - 페이지나 섹션의 푸터 부분</li>
+            </ul>
+            <footer>
+                <p>작성자: 홍길동 </p>
+            </footer>
+        </article>
+    </section>
+    <!-- 세 번째 섹션 -->
+    <section id="section3">
+        <h2> 참고 자료 </h2>
+        <ol>
+            <li><a href="https://developer.mozilla.org/ko/docs/Web/HTML"> MDN 웹 문서 </a> </li>
+            <li><a href="https://www.w3schools.com/html/">W3Schools HTML 튜토리얼</a></li>
+        </ol>
+    </section>
+</main>
+
+</html>

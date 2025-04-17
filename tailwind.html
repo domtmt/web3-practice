@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tailwind 경고 텍스트 예시</title>
+
+    <!-- Tailwind CSS (브라우저용 CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- 일반 CSS 방식 -->
+    <style>
+      .warning-text {
+        color: red;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 일반 CSS 방식 -->
+    <p class="warning-text">경고!</p>
+
+    <!-- Tailwind CSS 방식 -->
+    <p class="text-red-300 font-bold">경고!</p>
+
+    <!-- 설명 -->
+    <!-- 
+      - `text-red-600`: 글자색 (빨강 계열, 진한 느낌)
+      - `font-bold`: 글자 굵기 (bold)
+    -->
+  </body>
+</html>
